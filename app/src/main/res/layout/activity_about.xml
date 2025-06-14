@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/about"
+            android:contentDescription="Logo"
+            android:layout_gravity="center"
+            android:layout_marginBottom="18dp"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:text="SYAZANA HAZWANI HUDA BINTI SAMSUR"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="2023115921"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="ICT602"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Mobile Application Development"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/githubLink"
+            android:text="View Project on GitHub"
+            android:textColor="#000080"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="© 2025 Syazana. All rights reserved."
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:text="Back"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BC13FE"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</ScrollView>

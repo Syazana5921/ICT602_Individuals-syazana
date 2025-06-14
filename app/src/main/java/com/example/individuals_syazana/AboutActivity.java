@@ -27,7 +27,7 @@ public class AboutActivity extends AppCompatActivity {
 
         TextView github = findViewById(R.id.githubLink);
         github.setOnClickListener(view -> {
-            String url = "https://github.com/username/repository"; // Gantikan dengan URL sebenar
+            String url = "https://github.com/Syazana5921/ICT602_ASSIGNMENT-INDIVIDUAL";
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
         });
 

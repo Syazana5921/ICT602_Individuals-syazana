@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="24dp"
-        android:background="#ADD8E6">
-    <LinearLayout
-        android:id="@+id/main"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:background="#ADD8E6"
+        android:id="@+id/main"
         android:orientation="vertical">
         <ImageView
             android:id="@+id/logoImage"
@@ -21,15 +18,16 @@
 
         <Spinner
             android:id="@+id/snMonth"
-            android:layout_marginTop="8dp"
-            android:textSize="16sp"
-            android:textColor="#000"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:minHeight="48dp"
-            android:layout_height="wrap_content"/>
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
         <TextView
             android:text="Electricity Unit used:"
+            android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="#000"
             android:layout_marginTop="16dp"
@@ -39,6 +37,7 @@
             android:id="@+id/Unit"
             android:inputType="number"
             android:hint="kWh"
+            android:textColor="#000"
             android:layout_marginTop="8dp"
             android:layout_width="match_parent"
             android:minHeight="48dp"
@@ -46,6 +45,7 @@
 
         <TextView
             android:text="Rebate Percentage:"
+            android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="#000"
             android:layout_marginTop="16dp"
@@ -56,6 +56,7 @@
             android:inputType="numberDecimal"
             android:hint="0 - 5%"
             android:layout_marginTop="8dp"
+            android:textColor="#000"
             android:layout_width="match_parent"
             android:minHeight="48dp"
             android:layout_height="wrap_content"/>
@@ -102,5 +103,4 @@
             android:textColor="#000"
             android:divider="#BDBDBD"
             android:dividerHeight="1dp"/>
-    </LinearLayout>
-</ScrollView>
+</LinearLayout>
